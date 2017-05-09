@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="32dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="10dp"
+            android:text="Selamat Datang"
+            android:textAlignment="center"
+            android:textSize="30dp"/>
+
+        <TextView
+            style="?android:textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Silahkan tunggu...."
+            android:textAlignment="center"/>
+
+        <Button
+            style="?android:textAppearanceButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"
+            android:padding="2dp"
+            android:id="@+id/btn_skip"
+            android:background="#f44336"
+            android:textColor="#ffffff"
+            android:textSize="16dp"
+            android:onClick="skip"
+            android:textAlignment="center"
+            android:text="Lewati"/>
+
+    </LinearLayout>
+
+</LinearLayout>
